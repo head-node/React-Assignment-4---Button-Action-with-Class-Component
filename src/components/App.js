@@ -15,9 +15,8 @@ class App extends Component {
   render() {
     return (
       <div id="main">
-        <button onClick={this.change}>Click</button> 
-       { this.state.flag?<p id="para"> Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy
-</p>:<></>}
+        <button id="click" onClick={this.change}>Click</button> 
+       { this.state.flag?<p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>:<></>}
       </div>
     )
   } 
